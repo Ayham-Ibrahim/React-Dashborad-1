@@ -1,0 +1,58 @@
+.teacher-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.teacher-header h2 {
+    color: #526d82;
+    
+}
+
+.teacher-header .language {
+    padding: 6px;
+    color: #526d82;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #dde6ed;
+}
+.teacher-list{
+    display: flex;
+    flex-direction: column;
+
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    padding: 5px 0;
+    padding-right: 10px;
+    margin: 8px 0;
+}
+.list:hover {
+
+    background-color: #dde6ed;
+    border-radius: 10px;
+}
+
+.teachr-info {
+    display: flex;
+    align-items: center;
+}
+.teacher-name {
+    color: #526d82;
+    margin-left: 15px;
+}
+
+.teachr-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.course-duration,
+.cost {
+    color: #526d82;
+}

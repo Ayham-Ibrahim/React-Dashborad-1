@@ -1,0 +1,35 @@
+
+.profile-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.profile-header .profile-title {
+    color: #526d82;
+    font-size: 26px;
+
+}
+
+.edit-profile {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #dde6ed;
+    
+}
+
+
+.edit-profile .icon {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #969393;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+.edit-profile .icon:hover {
+    transform: scale(1.3);
+}
+
